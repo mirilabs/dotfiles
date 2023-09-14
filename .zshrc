@@ -99,3 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Initialize oh-my-posh
+# https://ohmyposh.dev/docs/themes
+OMP_THEME="tonybaloney"
+eval "$(oh-my-posh prompt init zsh --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/$OMP_THEME.omp.json)"
