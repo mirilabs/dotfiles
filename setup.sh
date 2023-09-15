@@ -12,7 +12,7 @@ sudo fc-cache -f -v
 rm Meslo.zip
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) -Y"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh) -Y"
 
 # install oh-my-posh
 curl -s https://ohmyposh.dev/install.sh | sudo bash -s
@@ -21,5 +21,4 @@ curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 cp ./.zshrc $HOME/.zshrc
 cp ./aliases.zsh $HOME/.oh-my-zsh/custom
 
-# restart zsh to apply changes
-exec zsh
+echo "Dotfiles setup complete"
