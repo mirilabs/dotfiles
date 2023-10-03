@@ -1,3 +1,6 @@
+# upgrade yarn to v3
+yarn set version stable
+
 # git aliases
 git config alias.st status
 git config alias.br branch
